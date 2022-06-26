@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cstdio>
+#include<bits/stdc++.h>
+
 using namespace std;
 
 int main() {
@@ -9,13 +11,13 @@ int main() {
     double d;
     float f;
     
-    cin >> a >> b>> c >> d >> f;
+    cin >> a >> b >> c >> f >> d;
     
     cout<<a<<endl;
     cout<<b<<endl;
     cout<<c<<endl;
-    cout<<d<<endl;
-    cout<<f<<endl;
+    cout<<fixed<<setprecision(3)<<f<<endl;
+    cout<<fixed<<setprecision(9)<<d<<endl;
     
     return 0;
 }
